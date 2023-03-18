@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;    
+}
+
+body{
+    width: 100%;
+}
+
+
+.page-hero-section{
+    width: 1110px;
+    height: 600px;
+    max-width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 149px;
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-size: cover;
+}
+.page-hero-section-card{
+    width: 445px ;
+    height:357px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 54px 28px 0px 27px;
+}
+.page-hero-section-title{
+    width: 390px; 
+}
+.page-hero-section-button{
+    width: 200px;
+    height: 48px;
+    margin-left: -27px;
+
+    color: #fff;
+    background: #203A4C;
+
+    background: linear-gradient(to right,
+    #1D3445 0%,
+    #1D3445 25%,
+    #203A4C 25%,
+    #203A4C 100%);
+}
+.page-hero-section-button:hover {
+    background: linear-gradient(to right,
+    #56A292 0%,
+    #56A292 25%,
+    #5FB4A2 25%,
+    #5FB4A2 100%);
+    cursor: pointer;
+}
+.page-hero-section-button-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 48px;
+    background-image: url(../../assets/icons/down-arrows-dark.svg);
+    background-repeat: no-repeat;
+    background-position: 16px 18px;   
+}
+.page-hero-section-button-icon:hover{
+    background-image: url(../../assets/icons/down-arrows-white.svg);
+}
+
+.page-hero-section-button-text{
+    width: 152px;
+    height: 14px;
+}
+
+.page-aboutme{
+    width: 1110px;
+    height: 601px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.page-aboutme-img{
+    display: flex;
+    width: 540px;
+    height: 600px;
+}
+
+.page-aboutme-text-content{
+    width: 430px;
+    padding-top: 51px;
+    padding-bottom: 28px;
+    border-top: 1px solid rgba(51, 50, 61, 0.151);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.151);
+
+}
+.page-aboutme-text-content h2{
+    margin-bottom: 24px;
+}
+.page-aboutme-text-content p{
+    width: 430px;
+    height: 360px;
+    margin-bottom: 24px;
+
+}
+.page-aboutme-text-content button{
+  all: unset;
+
+  width: 204px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 113px;
+
+  box-sizing: border-box;
+  border: 1px solid #33323D;
+
+}
+
+.page-card-contact{
+    width:1110px;
+    height: 84px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
